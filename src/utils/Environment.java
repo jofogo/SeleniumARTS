@@ -14,8 +14,8 @@ public class Environment {
 	private static String fileMasterFormat = ".csv";
 	private static String fileLogFormat = ".txt";
 	private static String fileReportFormat = ".html";
-	public static int StepRetries = 10;
-	public static int StepMaxTimeOut = 30;
+	public static int StepRetries = 15;
+	public static int StepMaxTimeOut = 60;
 	public static int CountTestPass, CountTestFail, CountTestTotal;
 	public static int CountStepPass, CountStepFail, CountStepTotal;
 	public static String TimeStarted, TimeEnded, TimeElapsed;
@@ -147,6 +147,7 @@ public class Environment {
                 	}
                 	Timers.TestCaseEnd();
 					Reporter.WriteTestSummary();
+
         		}
         	}
         	

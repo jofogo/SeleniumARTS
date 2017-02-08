@@ -170,7 +170,7 @@ public class Reporter {
 		
 			TestSummaryWriteLine(TestSummary);
 			
-			//OutputWriteLine(TestSummary);
+			OutputWriteLine(TestSummary);
 		}
 
 		

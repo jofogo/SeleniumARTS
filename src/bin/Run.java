@@ -56,7 +56,8 @@ public class Run {
 
 					Timers.SuiteEnd();
 					Reporter.PerformanceWriteLine(Suites + "," + Timers.SuiteTotal() + ",%");
-					Reporter.SummaryWriteLine(Suites + "," + Environment.SuiteStarted + "," + Environment.SuiteEnded + "," + Timers.SuiteTotal());					
+					Reporter.SummaryWriteLine(Suites + "," + Environment.SuiteStarted + "," + Environment.SuiteEnded + "," + Timers.SuiteTotal());
+					Log.FlushToOutputFile();
 				} else if (Execute.toUpperCase().contains("FALSE")) {
 					Environment.TestSuite = Suites;
 					Reporter.SummaryWriteLine(Environment.TestSuite + ",n/a,n/a,Skipped");					
