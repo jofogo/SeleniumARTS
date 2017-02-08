@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8" ?><rss version="2.0" xml:base="http://marketplace.eclipse.org/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Eclipse Plugins, Bundles and Products - Eclipse Marketplace</title>
+    <link>http://marketplace.eclipse.org/</link>
+    <description></description>
+    <language>en</language>
+     <atom:link href="http://marketplace.eclipse.org/rss.xml" rel="self" type="application/rss+xml" />
+      <item>
+    <title>Java 9 Support (BETA) for Oxygen</title>
+    <link>http://marketplace.eclipse.org/content/java-9-support-beta-oxygen</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/default_images/default_2.png&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2015-06-16 11:11&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-02-08 05:32&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22The%20Eclipse%20Foundation%22&quot;&gt;The Eclipse Foundation&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/wbeaton/listings&quot; title=&quot;Wayne Beaton&quot;&gt;Wayne Beaton&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Java™ 9 support has not yet landed in our standard download packages. But you can add an early access preview to your existing Eclipse Oxygen (4.7) install.&lt;/p&gt;
+&lt;p&gt;The Eclipse Java™ 9 Support (BETA) contains the following:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;ability to add JRE and JDK 9 as installed JRE&lt;/li&gt;
+&lt;li&gt;support for JavaSE-9 execution environment&lt;/li&gt;
+&lt;li&gt;ability to create Java and Plug-in projects that use a JRE or JDK 9&lt;/li&gt;
+&lt;li&gt;ability to compile modules that are part of a Java project&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;Notes:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;You need the most recent Oxygen (4.7) Eclipse SDK milestone or integration build&lt;/li&gt;
+&lt;li&gt;You need a recent Java™ 9 JDK from &lt;a href=&quot;https://jdk9.java.net/&quot;&gt;https://jdk9.java.net/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Recent Java 9 previews require you to add &lt;code&gt;--add-modules=java.se.ee&lt;/code&gt; (&lt;code&gt;-addmods java.se.ee&lt;/code&gt; for older Java 9 builds) to the vmargs when launching Eclipse, see &lt;a href=&quot;https://www.eclipse.org/eclipse/news/4.6/platform.php#java-9&quot;&gt;https://www.eclipse.org/eclipse/news/4.6/platform.php#java-9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;For the modular dependency between projects to work (without explicit project dependency) the following needs to be added to the .classpath manually:&lt;br /&gt;&lt;i&gt; &amp;lt;classpathentry kind=&quot;con&quot; path=&quot;org.eclipse.jdt.MODULE_PATH&quot;/&amp;gt; &lt;/i&gt;
+&lt;p&gt;If this does not seem to have an effect, the project should be closed and reopened, as a workaround. Once it is done, the entry &lt;b&gt;Module Source Path&lt;/b&gt; should appear as a child in the Package Explorer and projects referenced in the module-info should be visible under the Module Source Path just like they do under the Referenced Libraries entry.
+&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Note: This has been tested with JDK 9 early access build 154. Other versions may not work with this patch.&lt;/b&gt; &lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;This is an implementation of an early-draft specification developed under the Java Community Process (JCP) and is made available for testing and evaluation purposes only. The code is not compatible with any specification of the JCP.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 16 Jun 2015 15:11:01 +0000</pubDate>
+ <dc:creator>wbeaton</dc:creator>
+ <guid isPermaLink="false">2393593 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/java-9-support-beta-oxygen#comments</comments>
+  </item>
+  <item>
+    <title>Jaspersoft Studio</title>
+    <link>http://marketplace.eclipse.org/content/jaspersoft-studio</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo_mini.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2010-08-30 09:34&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-02-08 03:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22TIBCO%20Jaspersoft%22&quot;&gt;TIBCO Jaspersoft&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/gtoffoli/listings&quot; title=&quot;Giulio Toffoli&quot;&gt;Giulio Toffoli&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;TIBCO Jaspersoft® Studio is editing software for TIBCO JasperReports®. It will help you design and run report templates; build report queries; write complex expressions; layout visual components like 50+ types of charts, maps, tables, crosstabs, and custom visualisations; and much more. It integrates TIBCO JasperReports® Server to create powerful report publishing workflows. &lt;/p&gt;
+&lt;p&gt;With Jaspersoft Studio you can build documents of any complexity from your data—from print-ready in PDFs to interactive masterpieces in dynamic HTML, with navigation to interactive components, like maps and charts that may be inside or outside the report. You can generate high quality OpenOffice, PowerPoint , RTF, Word, and spreadsheet documents. Or you can generate raw CSV, JSON, or XML  documents. It&#039;s not difficult to build your own custom exporter to suit any data need.&lt;/p&gt;
+&lt;p&gt;Using Jaspersoft Studio, you can access different types of data sources, including big data, CSV, Hibernate, Jaspersoft Domain, JavaBeans, JDBC, JSON, NoSQL, TIBCO Spotfire® Information Links, XML, or your own custom data source.&lt;/p&gt;
+&lt;p&gt;Available as an Eclipse plug-in or a standalone application, Jaspersoft Studio comes in two editions: Community and Professional. The Professional edition includes additional features, like access to Spotfire, maps, and advanced HTML5 charts, as well as professional support.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://marketplace.eclipse.org/sites/default/files/screenshot-jss-1_0.png&quot; border=&quot;0&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Jaspersoft Studio&lt;br /&gt;
+The standalone version can be downloaded here:&lt;br /&gt;&lt;a href=&quot;http://community.jaspersoft.com/project/jaspersoft-studio/releases&quot;&gt;http://community.jaspersoft.com/project/jaspersoft-studio/releases&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The update sites archive can be found here:&lt;br /&gt;&lt;a href=&quot;http://sourceforge.net/projects/jasperstudio/files/updatesite/&quot;&gt;http://sourceforge.net/projects/jasperstudio/files/updatesite/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you are noticing installation issues with Jaspersoft Studio plug-in or the RCP update mechanism please give a look at the following troubleshooting article that explains how to deal with the problems caused by the Sourceforge latest changes: &lt;a href=&quot;http://community.jaspersoft.com/wiki/solving-installation-and-update-errors-related-update-site-jaspersoft-studio&quot;&gt;Solving installation and update errors related to the update site of Jaspersoft Studio&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 30 Aug 2010 13:34:52 +0000</pubDate>
+ <dc:creator>gtoffoli</dc:creator>
+ <guid isPermaLink="false">8068 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/jaspersoft-studio#comments</comments>
+  </item>
+  <item>
+    <title>SAP Hybris - Developer Toolset</title>
+    <link>http://marketplace.eclipse.org/content/sap-hybris-developer-toolset</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/logo.jpg&quot; width=&quot;80&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-02-06 12:53&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2017-02-08 03:44&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22EPAM%20Systems%22&quot;&gt;EPAM Systems&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/esystems/listings&quot; title=&quot;EPAM Systems&quot;&gt;EPAM Systems&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;SAP Hybris - Developer Toolset&lt;/p&gt;
+&lt;p&gt;Plugin for hybris developers, that allows you to reduce waste during your day to day hybris work and increase your working productivity.&lt;br /&gt;
+Built by EPAM Hybris developers for Hybris developers. Results. Relentlessly.&lt;/p&gt;
+&lt;p&gt;More details : &lt;a href=&quot;https://www.epam.com/ideas/brochures/hybris-eclipse-plugin&quot;&gt;https://www.epam.com/ideas/brochures/hybris-eclipse-plugin&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;	Features set:&lt;br /&gt;
+		Impex Editor&lt;br /&gt;
+			- Suggestions/auto-completions of commands, types, attributes, modifiers and macroses.&lt;br /&gt;
+			- Configurable highlighting&lt;br /&gt;
+			- Formatting&lt;br /&gt;
+			- Outline view integration&lt;br /&gt;
+			- Datalines folding&lt;br /&gt;
+			- Hyperlinks to item types and attributes declaration&lt;br /&gt;
+		Impex Run, validation on remote hybris instance&lt;br /&gt;
+		Projects import&lt;br /&gt;
+			- Importing based on build analyze&lt;br /&gt;
+			- Workspace sync&lt;br /&gt;
+			- Classpaths with required extensions sync&lt;br /&gt;
+		Flexible Search Editor View&lt;br /&gt;
+		    - Suggestion of commands, types, attributes.&lt;br /&gt;
+		    - Highlighting&lt;br /&gt;
+		    - Executing on remote instance&lt;br /&gt;
+		    - Flexible Search Result View&lt;br /&gt;
+		Flexible Search Builder&lt;br /&gt;
+		Hybris class creation wizard&lt;br /&gt;
+			- Interceptor creation&lt;br /&gt;
+			- Populator creation&lt;br /&gt;
+			- Spring beans suggestion and injection during class creation&lt;br /&gt;
+		Hybris extension generation wizard&lt;br /&gt;
+		Hybris module generation wizard&lt;/p&gt;
+&lt;p&gt;EPAM has a long history of Hybris development expertise and is a longstanding partner of SAP Hybris. Find out more about EPAM’s Hybris capabilities at &lt;a href=&quot;https://www.epam.com/hybris&quot;&gt;https://www.epam.com/hybris&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Want to spend time with Hybris Experts - go &lt;a href=&quot;https://www.epam.com/careers/hybris-talent&quot;&gt;https://www.epam.com/careers/hybris-talent&lt;/a&gt; to get involved.&lt;/p&gt;
+&lt;p&gt;Send your feedback and requests to &lt;a href=&quot;mailto:hybriseclipseplugin@epam.com&quot;&gt;hybriseclipseplugin@epam.com&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 06 Feb 2017 17:53:41 +0000</pubDate>
+ <dc:creator>esystems</dc:creator>
+ <guid isPermaLink="false">3281680 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/sap-hybris-developer-toolset#comments</comments>
+  </item>
+  <item>
+    <title>Angular IDE</title>
+    <link>http://marketplace.eclipse.org/content/angular-ide</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/angular.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-11-09 19:04&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-02-07 16:39&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Genuitec%2C%20LLC%22&quot;&gt;Genuitec, LLC&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/twebbcke/listings&quot; title=&quot;Tim Webb&quot;&gt;Tim Webb&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;NEW - Angular 2 plugin with: content assist, TypeScript 2.0 support, real-time validation, formatting, debugging, and more.&lt;/p&gt;
+&lt;p&gt;Standalone version at &lt;a href=&quot;https://www.genuitec.com/products/angular-ide/&quot;&gt;Angular IDE&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Thu, 10 Nov 2016 00:04:48 +0000</pubDate>
+ <dc:creator>twebbcke</dc:creator>
+ <guid isPermaLink="false">3157661 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/angular-ide#comments</comments>
+  </item>
+  <item>
+    <title>Code Sharing for Slack</title>
+    <link>http://marketplace.eclipse.org/content/code-sharing-slack</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/ecs.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2015-10-26 10:10&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-02-07 16:39&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Genuitec%2C%20LLC%22&quot;&gt;Genuitec, LLC&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/twebbcke/listings&quot; title=&quot;Tim Webb&quot;&gt;Tim Webb&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Code Sharing for Slack provides code sharing to your &lt;strong&gt;#Slack&lt;/strong&gt; channel automatically!  100% free, installable separably from the &lt;a href=&quot;https://www.genuitec.com/products/webclipse/&quot;&gt;Webclipse&lt;/a&gt; suite.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.genuitec.com/wp-content/uploads/2016/06/howto_new.gif&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;If you have Slack for Eclipse installed and a teammate shares code with you, your Eclipse can offer opening the same code being discussed.&lt;/p&gt;
+&lt;p&gt;Made available for free, for unlimited usage.  &lt;a href=&quot;https://www.genuitec.com/products/webclipse/pricing/&quot;&gt;Learn more&lt;/a&gt; about other always free Webclipse features as well as some other great features as well!&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 26 Oct 2015 14:10:50 +0000</pubDate>
+ <dc:creator>twebbcke</dc:creator>
+ <guid isPermaLink="false">2582095 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/code-sharing-slack#comments</comments>
+  </item>
+  <item>
+    <title>TypeScript</title>
+    <link>http://marketplace.eclipse.org/content/typescript-0</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/ts-110x80.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Wed, 2016-09-21 18:24&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-02-07 16:38&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Genuitec%2C%20LLC%22&quot;&gt;Genuitec, LLC&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/twebbcke/listings&quot; title=&quot;Tim Webb&quot;&gt;Tim Webb&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;TypeScript plugin with: content assist, tsconfig.js support, real-time validation, formatting, coloring, and more. Optimized for Angular 2.&lt;/p&gt;
+&lt;p&gt;Also in &lt;a href=&quot;https://genuitec.com/products/webclipse/&quot;&gt;Webclipse&lt;/a&gt; - click to learn more.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Wed, 21 Sep 2016 22:24:43 +0000</pubDate>
+ <dc:creator>twebbcke</dc:creator>
+ <guid isPermaLink="false">3083980 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/typescript-0#comments</comments>
+  </item>
+  <item>
+    <title>Darkest Dark Theme</title>
+    <link>http://marketplace.eclipse.org/content/darkest-dark-theme</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/DARKESTdark-theme.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-01-31 12:51&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-02-07 16:29&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Genuitec%2C%20LLC%22&quot;&gt;Genuitec, LLC&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/twebbcke/listings&quot; title=&quot;Tim Webb&quot;&gt;Tim Webb&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;New!! &lt;a href=&quot;https://www.genuitec.com/tech/darkest-dark/&quot;&gt;Darkest Dark theme&lt;/a&gt; for Eclipse is a free plug-in and theme that provides a clean flat look to Eclipse Neon and Oxygen.&lt;/p&gt;
+&lt;p&gt;Included:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;High impact colors on dark background&lt;/li&gt;
+&lt;li&gt;Icon replacement technology to refresh Eclipse icons&lt;/li&gt;
+&lt;li&gt;Lots of tidy-up of dark coloring over many tool stacks&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;&lt;strong&gt;Entirely free to use!&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Eclipse Color Theme will be installed if you don&#039;t have it - and you can of course continue to tweak your own Editor colors.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Tue, 31 Jan 2017 17:51:53 +0000</pubDate>
+ <dc:creator>twebbcke</dc:creator>
+ <guid isPermaLink="false">3274405 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/darkest-dark-theme#comments</comments>
+  </item>
+  <item>
+    <title>Webclipse</title>
+    <link>http://marketplace.eclipse.org/content/webclipse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/webclipse110x80_1.png&quot; width=&quot;100&quot; height=&quot;73&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2015-07-27 09:32&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Tue, 2017-02-07 11:30&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Genuitec%2C%20LLC%22&quot;&gt;Genuitec, LLC&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/twebbcke/listings&quot; title=&quot;Tim Webb&quot;&gt;Tim Webb&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;From JSjet with TypeScript and JavaScript to Live Preview, from Breadcrumbs to an enhanced Project Explorer, &lt;strong&gt;Webclipse&lt;/strong&gt; powers up Eclipse for the full-stack developer.  Web developers can now get outstanding web development, from rapid validation, syntax coloring, call hierarchies, content assist to refactoring, outline views, and more.&lt;/p&gt;
+&lt;p&gt;Included in Webclipse:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;strong&gt;JSjet&lt;/strong&gt; gives you a jet engine to power your TypeScript &amp;amp; JavaScript coding - no more does JS in Eclipse need to be a second class citizen! Includes support for node.js.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Angular IDE&lt;/strong&gt; gives you a powerful development environment for Angular 2 development including advanced template editing support.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;TypeScript&lt;/strong&gt; support gives you commercial-grade coding, validation and transpilaton of your TypeScript projects including Angular 2.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;JavaScript Debugger&lt;/strong&gt; lets you find and fix bugs in your JavaScript right inside your Eclipse IDE.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CodeLive w/Live Preview&lt;/strong&gt; lets you see changes inside Firefox, Chrome, Edge and Safari simultaneously while you change HTML, CSS and JSP files!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Emmet&lt;/strong&gt; lets you type short css-like expressions to expand rich blocks in HTML and CSS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Slack Code Sharing&lt;/strong&gt; lets you share snippets of code directly from within Eclipse to your teammates.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Breadcrumb&lt;/strong&gt; toolbar simplifies navigation to related elements in your workspace right next to your active editor.&lt;/li&gt;
+&lt;li&gt;Not to mention other power-ups like the &lt;strong&gt;Minimap&lt;/strong&gt; and the &lt;strong&gt;Project Explorer+&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Stay tuned.  We have exciting updates coming frequently!&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 27 Jul 2015 13:32:00 +0000</pubDate>
+ <dc:creator>twebbcke</dc:creator>
+ <guid isPermaLink="false">2456312 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/webclipse#comments</comments>
+  </item>
+  <item>
+    <title>Vorto Toolset</title>
+    <link>http://marketplace.eclipse.org/content/vorto-toolset</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/Vorto_logo.png&quot; width=&quot;110&quot; height=&quot;52&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sun, 2015-11-08 20:08&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-02-06 21:02&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22Bosch%20Software%20Innovations%22&quot;&gt;Bosch Software Innovations&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/aedelmann/listings&quot; title=&quot;Alexander Edelmann&quot;&gt;Alexander Edelmann&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;Vorto is an open source tool that allows to create and manage technology agnostic, abstract device descriptions, so called information models. Information models describe the attributes and the capabilities of real world devices. These information models can be managed and shared within the Vorto Information Model Repository. Code Generators for Information Models let you integrate devices into different platforms.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Mon, 09 Nov 2015 01:08:07 +0000</pubDate>
+ <dc:creator>aedelmann</dc:creator>
+ <guid isPermaLink="false">2599731 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/vorto-toolset#comments</comments>
+  </item>
+  <item>
+    <title>Sigrok extension (Logic Anaylzer, AD )  for impulse</title>
+    <link>http://marketplace.eclipse.org/content/sigrok-extension-logic-anaylzer-ad-impulse</link>
+    <description>&lt;div class=&quot;field field-name-field-resource-image field-type-image field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;img class=&quot;img-responsive&quot; src=&quot;http://marketplace.eclipse.org/sites/default/files/impulse110_80_2.png&quot; width=&quot;110&quot; height=&quot;80&quot; alt=&quot;&quot; /&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-created field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Created:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Sat, 2015-04-18 08:45&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&quot;field field-name-shared-date-updated field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Date Updated:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;Mon, 2017-02-06 10:09&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;a href=&quot;/search/content/%22toem%22&quot;&gt;toem&lt;/a&gt;&lt;div class=&quot;field field-name-shared-submitted-by field-type-text field-label-inline clearfix&quot;&gt;&lt;div class=&quot;field-label&quot;&gt;Submitted by:&amp;nbsp;&lt;/div&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;a href=&quot;/user/thaberm7n/listings&quot; title=&quot;Thomas Haber&quot;&gt;Thomas Haber&lt;/a&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_start --&gt;&lt;div class=&quot;field field-name-body field-type-text-with-summary field-label-hidden&quot;&gt;&lt;div class=&quot;field-items&quot;&gt;&lt;div class=&quot;field-item even&quot;&gt;&lt;p&gt;&lt;a href=&quot;http://toem.de/index.php/projects/impulse&quot;&gt;&lt;img src=&quot;http://toem.de/images/toem/impulse/article/sigrok/sigrok8.png&quot; width=&quot;250&quot; align=&quot;right&quot; style=&quot;float: right; border: 0;&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The &lt;strong&gt; Sigrok viewer &lt;/strong&gt; is an extension for &lt;a href=&quot;http://marketplace.eclipse.org/content/impulse&quot;&gt;impulse&lt;/a&gt;. It allows to analyse captured signals from various devices. &lt;/p&gt;
+&lt;p&gt;The sigrok project provides a software that enables various aquisition device types, such as logic analyzers, MSOs, oscilloscopes, multimeters, LCR meters, sound level meters, thermometers, hygrometers, anemometers, light meters, Energy meters, DAQs, dataloggers, function generators, RF receivers, spectrum analyzers, power supplies and GPIB interfaces. &lt;/p&gt;
+&lt;p&gt;
+	Sigrok itself is not part of this plugin. Please visit &lt;a href=&quot;http://sigrok.org&quot;&gt;Sigrok&lt;/a&gt; to&lt;br /&gt;
+	get information how to install.
+&lt;/p&gt;
+&lt;p&gt;Aquisition results can be viewed, analysed and compared.&lt;/p&gt;
+&lt;p&gt;This feature is licensed under the EPL. It is build on impulse that is deployed under a different license.&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;!-- google_ad_section_end --&gt;</description>
+     <pubDate>Sat, 18 Apr 2015 12:45:43 +0000</pubDate>
+ <dc:creator>thaberm7n</dc:creator>
+ <guid isPermaLink="false">2297683 at http://marketplace.eclipse.org</guid>
+ <comments>http://marketplace.eclipse.org/content/sigrok-extension-logic-anaylzer-ad-impulse#comments</comments>
+  </item>
+  </channel>
+</rss>
